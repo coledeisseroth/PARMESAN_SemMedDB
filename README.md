@@ -29,12 +29,19 @@ The data can be accessed here:
 https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/index.html
 
 <h1>Setup</h1>
+
 To run the SemMedDB-PARMESAN integration, you must first acquire the needed data.
+
 1. Add the UMLS Metathesaurus file <code>umls-2022AB-full.zip</code> to the <code>umls/raw/</code> directory
+
 2. Run the BUILD script <code>bash BUILD</code> in the <code>umls</code> directory
+
 3. Add the SemMedDB predication file <code>semmedVER43_2023_R_PREDICATION.116080.csv.gz</code> to <code>semmeddb/raw/</code> directory
+
 4. Upon running the default PARMESAN pipeline (<a href="//github.com/coledeisseroth/PARMESAN">github.com/coledeisseroth/PARMESAN</a>), and within that repository, find the folder <code>PARMESAN/semmeddb_comparison_export/</code>. Copy the contents of this folder to a folder here titled <code>parmesan_import</code>
+
 5. In the <code>semmeddb</code> directory, run <code>bash BUILD</code>
+
 6. In the <code>precision_recall</code> directory, run <code>bash BUILD</code>
 
 All genes are indexed by Entrez ID and all drugs by PubChem ID
