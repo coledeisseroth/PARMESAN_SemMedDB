@@ -4,9 +4,7 @@ This repository is designed to combine the relationship extractions of PARMESAN 
 <h1>Data files required</h1>
 <h2>PARMESAN</h2>
 
-Literature-based predictions of treatments for genetic disease pathology
-Cole A. Deisseroth, Won-Seok Lee, Ji-Yoen Kim, Hyun-Hwan Jeong, Julia Wang, Huda Y. Zoghbi, Zhandong Liu
-bioRxiv 2022.09.08.506253; doi: https://doi.org/10.1101/2022.09.08.506253 
+Cole A. Deisseroth, Won-Seok Lee, Ji-Yoen Kim, Hyun-Hwan Jeong, Julia Wang, Huda Y. Zoghbi, Zhandong Liu. Literature-based predictions of treatments for genetic disease pathology. bioRxiv 2022.09.08.506253; doi: https://doi.org/10.1101/2022.09.08.506253 
 
 The code used to generate the needed data files can be downloaded here:
 
@@ -64,7 +62,7 @@ The accuracy values for SemMedDB extractions at each directionality score thresh
 
 The format is:
 
-Score threshold[tab]No. extractions consistent with the manually curated database[tab]No. extractions contradicted by the manually curated database[tab]Accuracy
+Score threshold[tab]No. relationships consistent with the manually curated database[tab]No. relationships contradicted by the manually curated database[tab]Accuracy
 
 <h4>Predicted relationships</h4>
 Gene modifier predictions for SemMedDB alone will be here:
@@ -81,7 +79,7 @@ The accuracy values for predictions at each directionality score threshold will 
 
 The format is:
 
-Score threshold[tab]No. extractions consistent with the manually curated database[tab]No. extractions contradicted by the manually curated database[tab]Accuracy
+Score threshold[tab]No. relationships consistent with the manually curated database[tab]No. relationships contradicted by the manually curated database[tab]Accuracy
 
 <h3>PARMESAN-SemMedDB combination</h3>
 <h4>Extracted known relationships</h4>
@@ -110,7 +108,7 @@ The accuracy values for predictions at each directionality score threshold will 
 
 The format is:
 
-Score threshold[tab]No. extractions consistent with the manually curated database[tab]No. extractions contradicted by the manually curated database[tab]Accuracy
+Score threshold[tab]No. relationships consistent with the manually curated database[tab]No. relationships contradicted by the manually curated database[tab]Accuracy
 
 <h2>Drug modifiers</h2>
 <h3>SemMedDB alone</h3>
@@ -129,7 +127,7 @@ The accuracy values for SemMedDB extractions at each directionality score thresh
 
 The format is:
 
-Score threshold[tab]No. extractions consistent with the manually curated database[tab]No. extractions contradicted by the manually curated database[tab]Accuracy
+Score threshold[tab]No. relationships consistent with the manually curated database[tab]No. relationships contradicted by the manually curated database[tab]Accuracy
 
 <h4>Predicted relationships</h4>
 Drug modifier predictions for SemMedDB alone will be here:
@@ -146,7 +144,7 @@ The accuracy values for predictions at each directionality score threshold will 
 
 The format is:
 
-Score threshold[tab]No. extractions consistent with the manually curated database[tab]No. extractions contradicted by the manually curated database[tab]Accuracy
+Score threshold[tab]No. relationships consistent with the manually curated database[tab]No. relationships contradicted by the manually curated database[tab]Accuracy
 
 <h3>PARMESAN-SemMedDB combination</h3>
 <h4>Extracted known relationships</h4>
@@ -175,4 +173,4 @@ The accuracy values for predictions at each directionality score threshold will 
 
 The format is:
 
-Score threshold[tab]No. extractions consistent with the manually curated database[tab]No. extractions contradicted by the manually curated database[tab]Accuracy
+Score threshold[tab]No. relationships consistent with the manually curated database[tab]No. relationships contradicted by the manually curated database[tab]Accuracy
