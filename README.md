@@ -30,6 +30,10 @@ To run the SemMedDB-PARMESAN integration, you must first acquire the needed data
 
 All genes are indexed by Entrez ID and all drugs by PubChem ID
 
+<h1>Output</h1>
+<h2>Gene modifiers</h2>
+<h3>SemMedDB alone</h3>
+<h4>Extracted known relationships</h4>
 Upon completion, gene modifier extractions for SemMedDB alone will be here:
 semmeddb/extractions/gene_consensus_directionality.txt
 The format is:
@@ -40,6 +44,7 @@ semmeddb/extractions/gene_reactome_scoretable.txt
 The format is:
 Score threshold	No. correct extractions in the ground-truth comparison	No. incorrect extractions in the ground-truth comparison	Accuracy
 
+<h4>Predicted relationships</h4>
 Gene modifier predictions for SemMedDB alone will be here:
 semmeddb/predictions/gene_hypotheses.txt
 The format is:
@@ -50,11 +55,14 @@ semmeddb/predictions/reactome_raw_scoretable.txt
 The format is:
 Score threshold        No. correct predictions in the ground-truth comparison  No. incorrect predictions in the ground-truth comparison	Accuracy
 
+<h3>PARMESAN-SemMedDB combination</h3>
+<h4>Extracted known relationships</h4>
 Gene modifier extractions for PARMESAN + SemMedDB will be here:
 semmeddb/parmesan_combined/gene_consensus_directionality.txt
 The format is:
 Modifier        Target  Directionality score
 
+<h4>Predicted relationships</h4>
 Gene modifier predictions for PARMESAN + SemMedDB will be here:
 semmeddb/parmesan_combined_predictions/gene/pergene
 For each target gene, there will be a file whose name is the entrez ID of that gene. For example, the predicted modifiers of MeCP2 will be in the file titled "4204".
@@ -66,6 +74,9 @@ semmeddb/parmesan_combined_predictions/gene/reactome_raw_scoretable.txt
 The format is:
 Score threshold        No. correct predictions in the ground-truth comparison  No. incorrect predictions in the ground-truth comparison Accuracy
 
+<h2>Drug modifiers</h2>
+<h3>SemMedDB alone</h3>
+<h4>Extracted known relationships</h4>
 Drug modifier extractions for SemMedDB alone will be here:
 semmeddb/extractions/drug_consensus_directionality.txt
 The format is:
@@ -76,6 +87,7 @@ semmeddb/extractions/drug_dgidb_scoretable.txt
 The format is:
 Score threshold No. correct extractions in the ground-truth comparison  No. incorrect extractions in the ground-truth comparison        Accuracy
 
+<h4>Predicted relationships</h4>
 Drug modifier predictions for SemMedDB alone will be here:
 semmeddb/predictions/no_dgidb_drug_hypotheses.txt
 The format is:
@@ -86,11 +98,14 @@ semmeddb/predictions/dgidb_raw_scoretable.txt
 The format is:
 Score threshold        No. correct predictions in the ground-truth comparison  No. incorrect predictions in the ground-truth comparison Accuracy
 
+<h3>PARMESAN-SemMedDB combination</h3>
+<h4>Extracted known relationships</h4>
 Drug modifier extractions for PARMESAN + SemMedDB will be here:
 semmeddb/parmesan_combined/drug_consensus_directionality.txt
 The format is:
 Modifier        Target  Directionality score
 
+<h4>Predicted relationships</h4>
 Drug modifier predictions for PARMESAN + SemMedDB will be here:
 semmeddb/parmesan_combined_predictions/no_dgidb/pergene
 For each target gene, there will be a file whose name is the entrez ID of that gene. For example, the predicted modifiers of MeCP2 will be in the file titled "4204".
